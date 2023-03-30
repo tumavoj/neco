@@ -1,0 +1,119 @@
+Header {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    font-size: 24px;
+}
+
+#odkazy {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+a.user {
+    margin-left: 0;
+}
+
+body {
+    background-color: rgb(46, 43, 43);
+    display: flex;
+    flex-direction: column;
+}
+
+
+#login {
+    width: 50px;
+    height: 50px;
+    
+}
+
+div.main {
+    display: border-box;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid   black;
+    margin-top: 50px;
+    width: 75%;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 18px;
+}
+
+h1 {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    justify-content: center;
+}
+
+div.login {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 500px;
+    height: 100px;
+    top: 200px;
+}
+
+div.register {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    color: white;
+    top: 100px;
+    justify-content: space-between;
+}
+
+button {
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+ 
+h1.login {
+    top: 20px;
+}
+
+input {
+    background-color: rgb(74, 59, 59);
+    border-radius: 5px;
+}
+
+div.margin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
